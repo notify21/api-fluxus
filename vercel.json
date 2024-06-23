@@ -1,8 +1,4 @@
 {
-    
-    "builds": [{
-        "src": "api/main.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "20mb"}
-    }],
+  "name": "my-vercel-project",
+  "version": 2
 }
