@@ -5,10 +5,4 @@
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "20mb"}
     }],
-    "route": [
-        {
-            "src": "/(.*)",
-            "dest": "api/main.py"
-        }
-    ]
 }
